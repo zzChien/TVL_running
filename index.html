@@ -7,6 +7,7 @@
 
     <meta name="author" content="Peng Chien">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/231e09f1bf.js" crossorigin="anonymous"></script>
 
     <style>
         html { height:100%; overflow:hidden; }
@@ -29,6 +30,20 @@
             margin:2em 0 0 0;
             width: min(400px,80%);
         }
+        .icons {
+            position: fixed;
+            bottom: 25px;
+            left: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .icons i {
+            margin: 0 15px;
+            font-size: 25px;
+            color: black;
+        }
 
         #tvl {background-image: url("imgs/tvl_logo.png");}
     </style>
@@ -38,15 +53,15 @@
     <img class="Logo" src="imgs/tvl_logo.png">
     <h1>球員熱身中 請稍候...</h1>
 
-    <div>
-        <a href="https://www.facebook.com/CTVBA888/?checkpoint_src=any" target="_blank">
-            <img src="">
+    <div class="icons">
+        <a href="https://www.facebook.com/CTVBA888/?checkpoint_src=any" style="margin-bottom: 10px;">
+            <i class="fa-brands fa-square-facebook fa-lg"></i>
         </a>
-        <a href="https://www.youtube.com/channel/UCEenIlCU009lS0TZ8EKuKMw" target="_blank">
-            <img src="">
+        <a href="https://www.youtube.com/channel/UCEenIlCU009lS0TZ8EKuKMw" style="margin-bottom: 10px;">
+            <i class="fa-brands fa-youtube fa-lg"></i>
         </a>
-        <a href="https://www.instagram.com/ctvba_official/" target="_blank">
-            <img src="">
+        <a href="https://www.instagram.com/ctvba_official/" style="margin-bottom: 10px;">
+            <i class="fa-brands fa-square-instagram fa-lg"></i>
         </a>
     </div>
 </body>
